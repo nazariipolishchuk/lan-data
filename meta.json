@@ -1,16 +1,98 @@
 {
  "v": 1,
- "built": "2026-11-14T10:59:28+00:00",
+ "built": "2026-11-14T19:19:52+00:00",
  "coverage": {
   "historyTiles": [
+   "T34UEU",
+   "T34UFA",
+   "T34UFB",
+   "T34UFC",
+   "T34UFU",
+   "T34UFV",
+   "T34UGA",
+   "T34UGB",
+   "T34UGC",
+   "T34UGU",
+   "T34UGV",
+   "T35TPL",
+   "T35TPM",
+   "T35TPN",
+   "T35TQL",
+   "T35TQM",
+   "T35TQN",
+   "T35ULP",
+   "T35ULQ",
+   "T35ULR",
+   "T35ULS",
+   "T35ULT",
+   "T35UMP",
+   "T35UMQ",
+   "T35UMR",
+   "T35UMS",
+   "T35UMT",
+   "T35UNP",
+   "T35UNQ",
+   "T35UNR",
+   "T35UNS",
+   "T35UPP",
    "T35UPQ",
+   "T35UPR",
+   "T35UPS",
    "T35UQP",
    "T35UQQ",
+   "T35UQR",
+   "T35UQS",
+   "T35UQT",
+   "T36TUS",
+   "T36TUT",
+   "T36TVR",
+   "T36TVS",
+   "T36TVT",
+   "T36TWQ",
+   "T36TWR",
+   "T36TWS",
+   "T36TWT",
+   "T36TXQ",
+   "T36TXR",
+   "T36TXS",
+   "T36TXT",
+   "T36TYR",
+   "T36TYS",
+   "T36TYT",
    "T36UUA",
+   "T36UUB",
+   "T36UUC",
    "T36UUU",
    "T36UUV",
    "T36UVA",
-   "T36UVV"
+   "T36UVB",
+   "T36UVC",
+   "T36UVU",
+   "T36UVV",
+   "T36UWA",
+   "T36UWB",
+   "T36UWC",
+   "T36UWU",
+   "T36UWV",
+   "T36UXA",
+   "T36UXB",
+   "T36UXU",
+   "T36UXV",
+   "T36UYA",
+   "T36UYU",
+   "T36UYV",
+   "T37TCM",
+   "T37TCN",
+   "T37TDN",
+   "T37UCP",
+   "T37UCQ",
+   "T37UCR",
+   "T37UDP",
+   "T37UDQ",
+   "T37UDR",
+   "T37UEP",
+   "T37UEQ",
+   "T37UER"
   ],
   "climateOnly": false
  },
@@ -28,6 +110,28 @@
    "T35UQP",
    "T36UVA"
   ],
+  "confusion": [
+   [
+    1081,
+    169,
+    14
+   ],
+   [
+    116,
+    22259,
+    116
+   ],
+   [
+    4,
+    743,
+    124
+   ]
+  ],
+  "labels": [
+   "winter",
+   "summer",
+   "uncultivated"
+  ],
   "crop": {
    "macroF1": 0.751,
    "accuracy": 0.855,
@@ -43,6 +147,218 @@
    "testTiles": [
     "T14UPU"
    ]
+  },
+  "ukraine": {
+   "51": {
+    "macroF1": 0.628,
+    "accuracy": 0.793,
+    "perClass": {
+     "winter": 0.855,
+     "summer": 0.835,
+     "uncultivated": 0.195
+    },
+    "support": {
+     "winter": 6763,
+     "summer": 11086,
+     "uncultivated": 2141
+    },
+    "n": 19990,
+    "labels": [
+     "winter",
+     "summer",
+     "uncultivated"
+    ],
+    "confusion": [
+     [
+      5496,
+      1199,
+      68
+     ],
+     [
+      506,
+      10070,
+      510
+     ],
+     [
+      88,
+      1760,
+      293
+     ]
+    ],
+    "oblast": "Odesa",
+    "zone": "Steppe, south (Odesa)",
+    "tile": "T35TPL",
+    "fields": 5107,
+    "seconds": 19
+   },
+   "63": {
+    "macroF1": 0.669,
+    "accuracy": 0.942,
+    "perClass": {
+     "winter": 0.841,
+     "summer": 0.966,
+     "uncultivated": 0.199
+    },
+    "support": {
+     "winter": 2979,
+     "summer": 19298,
+     "uncultivated": 440
+    },
+    "n": 22717,
+    "labels": [
+     "winter",
+     "summer",
+     "uncultivated"
+    ],
+    "confusion": [
+     [
+      2374,
+      603,
+      2
+     ],
+     [
+      287,
+      18963,
+      48
+     ],
+     [
+      6,
+      380,
+      54
+     ]
+    ],
+    "oblast": "Kharkiv",
+    "zone": "Steppe/Forest-Steppe, east (Kharkiv)",
+    "tile": "T36UXA",
+    "fields": 4688,
+    "seconds": 16
+   },
+   "07": {
+    "macroF1": 0.65,
+    "accuracy": 0.886,
+    "perClass": {
+     "winter": 0.818,
+     "summer": 0.929,
+     "uncultivated": 0.201
+    },
+    "support": {
+     "winter": 4575,
+     "summer": 15877,
+     "uncultivated": 592
+    },
+    "n": 21044,
+    "labels": [
+     "winter",
+     "summer",
+     "uncultivated"
+    ],
+    "confusion": [
+     [
+      3355,
+      1128,
+      92
+     ],
+     [
+      257,
+      15151,
+      469
+     ],
+     [
+      18,
+      445,
+      129
+     ]
+    ],
+    "oblast": "Volyn",
+    "zone": "Polissia, north-west (Volyn)",
+    "tile": "T35ULS",
+    "fields": 5619,
+    "seconds": 18
+   },
+   "46": {
+    "macroF1": 0.66,
+    "accuracy": 0.872,
+    "perClass": {
+     "winter": 0.811,
+     "summer": 0.926,
+     "uncultivated": 0.243
+    },
+    "support": {
+     "winter": 3099,
+     "summer": 17062,
+     "uncultivated": 972
+    },
+    "n": 21133,
+    "labels": [
+     "winter",
+     "summer",
+     "uncultivated"
+    ],
+    "confusion": [
+     [
+      2203,
+      764,
+      132
+     ],
+     [
+      118,
+      15937,
+      1007
+     ],
+     [
+      11,
+      669,
+      292
+     ]
+    ],
+    "oblast": "Lviv",
+    "zone": "West (Lviv)",
+    "tile": "T34UFA",
+    "fields": 5564,
+    "seconds": 14
+   },
+   "12": {
+    "macroF1": 0.698,
+    "accuracy": 0.95,
+    "perClass": {
+     "winter": 0.933,
+     "summer": 0.967,
+     "uncultivated": 0.193
+    },
+    "support": {
+     "winter": 7550,
+     "summer": 23514,
+     "uncultivated": 553
+    },
+    "n": 31617,
+    "labels": [
+     "winter",
+     "summer",
+     "uncultivated"
+    ],
+    "confusion": [
+     [
+      6939,
+      604,
+      7
+     ],
+     [
+      368,
+      23022,
+      124
+     ],
+     [
+      16,
+      464,
+      73
+     ]
+    ],
+    "oblast": "Dnipropetrovsk",
+    "zone": "Steppe, centre (Dnipropetrovsk)",
+    "tile": "T36UWU",
+    "fields": 7243,
+    "seconds": 21
+   }
   }
  },
  "sources": [
@@ -82,5 +398,307 @@
    "version": "2025",
    "licence": "CC-BY-4.0"
   }
- ]
+ ],
+ "oblasts": {
+  "05": {
+   "name": "Vinnytsia",
+   "fields": 39053,
+   "withHistory": 39053,
+   "bbox": [
+    27.3554,
+    48.0677,
+    30.0061,
+    49.8971
+   ],
+   "tiles": "tiles/fields-05.pmtiles"
+  },
+  "07": {
+   "name": "Volyn",
+   "fields": 21706,
+   "withHistory": 21706,
+   "bbox": [
+    23.6238,
+    50.283,
+    26.0685,
+    51.9406
+   ],
+   "tiles": "tiles/fields-07.pmtiles"
+  },
+  "09": {
+   "name": "Luhansk",
+   "fields": 19002,
+   "withHistory": 19001,
+   "bbox": [
+    37.8778,
+    47.8108,
+    40.2242,
+    50.1048
+   ],
+   "tiles": "tiles/fields-09.pmtiles"
+  },
+  "12": {
+   "name": "Dnipropetrovsk",
+   "fields": 35575,
+   "withHistory": 35575,
+   "bbox": [
+    32.9667,
+    47.4304,
+    36.9379,
+    49.1939
+   ],
+   "tiles": "tiles/fields-12.pmtiles"
+  },
+  "14": {
+   "name": "Donetsk",
+   "fields": 15924,
+   "withHistory": 15924,
+   "bbox": [
+    36.4746,
+    46.8858,
+    39.0849,
+    49.2433
+   ],
+   "tiles": "tiles/fields-14.pmtiles"
+  },
+  "18": {
+   "name": "Zhytomyr",
+   "fields": 23734,
+   "withHistory": 23649,
+   "bbox": [
+    22.7628,
+    49.5901,
+    29.7408,
+    51.6351
+   ],
+   "tiles": "tiles/fields-18.pmtiles"
+  },
+  "21": {
+   "name": "Zakarpattia",
+   "fields": 5940,
+   "withHistory": 5940,
+   "bbox": [
+    22.139,
+    47.957,
+    23.9899,
+    48.9488
+   ],
+   "tiles": "tiles/fields-21.pmtiles"
+  },
+  "23": {
+   "name": "Zaporizhzhia",
+   "fields": 26199,
+   "withHistory": 26193,
+   "bbox": [
+    34.1702,
+    46.2999,
+    37.2466,
+    48.1411
+   ],
+   "tiles": "tiles/fields-23.pmtiles"
+  },
+  "26": {
+   "name": "Ivano-Frankivsk",
+   "fields": 15295,
+   "withHistory": 15295,
+   "bbox": [
+    23.7306,
+    48.2706,
+    25.6516,
+    49.5386
+   ],
+   "tiles": "tiles/fields-26.pmtiles"
+  },
+  "32": {
+   "name": "Kyiv",
+   "fields": 23523,
+   "withHistory": 23523,
+   "bbox": [
+    29.3855,
+    49.18,
+    32.2289,
+    51.2642
+   ],
+   "tiles": "tiles/fields-32.pmtiles"
+  },
+  "35": {
+   "name": "Kirovohrad",
+   "fields": 31818,
+   "withHistory": 31818,
+   "bbox": [
+    29.7642,
+    47.7508,
+    33.8814,
+    49.0885
+   ],
+   "tiles": "tiles/fields-35.pmtiles"
+  },
+  "43": {
+   "name": "Crimea",
+   "fields": 19964,
+   "withHistory": 19939,
+   "bbox": [
+    32.4821,
+    44.3937,
+    36.6276,
+    46.2176
+   ],
+   "tiles": "tiles/fields-43.pmtiles"
+  },
+  "46": {
+   "name": "Lviv",
+   "fields": 28457,
+   "withHistory": 28457,
+   "bbox": [
+    22.7127,
+    48.8839,
+    25.427,
+    50.6435
+   ],
+   "tiles": "tiles/fields-46.pmtiles"
+  },
+  "48": {
+   "name": "Mykolaiv",
+   "fields": 18729,
+   "withHistory": 18729,
+   "bbox": [
+    30.1984,
+    46.6067,
+    33.1757,
+    48.2414
+   ],
+   "tiles": "tiles/fields-48.pmtiles"
+  },
+  "51": {
+   "name": "Odesa",
+   "fields": 28880,
+   "withHistory": 28849,
+   "bbox": [
+    28.2295,
+    45.227,
+    31.3267,
+    48.2569
+   ],
+   "tiles": "tiles/fields-51.pmtiles"
+  },
+  "53": {
+   "name": "Poltava",
+   "fields": 35826,
+   "withHistory": 35826,
+   "bbox": [
+    32.0991,
+    48.7638,
+    35.4979,
+    50.5626
+   ],
+   "tiles": "tiles/fields-53.pmtiles"
+  },
+  "56": {
+   "name": "Rivne",
+   "fields": 20459,
+   "withHistory": 20442,
+   "bbox": [
+    25.1108,
+    50.0218,
+    27.4987,
+    51.9235
+   ],
+   "tiles": "tiles/fields-56.pmtiles"
+  },
+  "59": {
+   "name": "Sumy",
+   "fields": 22077,
+   "withHistory": 22077,
+   "bbox": [
+    32.943,
+    50.1145,
+    35.7712,
+    52.3359
+   ],
+   "tiles": "tiles/fields-59.pmtiles"
+  },
+  "61": {
+   "name": "Ternopil",
+   "fields": 20130,
+   "withHistory": 20130,
+   "bbox": [
+    24.7198,
+    48.5103,
+    26.4415,
+    50.2531
+   ],
+   "tiles": "tiles/fields-61.pmtiles"
+  },
+  "63": {
+   "name": "Kharkiv",
+   "fields": 28723,
+   "withHistory": 28723,
+   "bbox": [
+    34.864,
+    48.5334,
+    38.128,
+    50.4803
+   ],
+   "tiles": "tiles/fields-63.pmtiles"
+  },
+  "65": {
+   "name": "Kherson",
+   "fields": 18250,
+   "withHistory": 18243,
+   "bbox": [
+    31.8022,
+    45.7693,
+    35.1095,
+    47.6514
+   ],
+   "tiles": "tiles/fields-65.pmtiles"
+  },
+  "68": {
+   "name": "Khmelnytskyi",
+   "fields": 27939,
+   "withHistory": 27939,
+   "bbox": [
+    26.1344,
+    48.4543,
+    27.894,
+    50.5878
+   ],
+   "tiles": "tiles/fields-68.pmtiles"
+  },
+  "71": {
+   "name": "Cherkasy",
+   "fields": 29214,
+   "withHistory": 29214,
+   "bbox": [
+    29.5952,
+    48.4344,
+    32.8785,
+    50.2304
+   ],
+   "tiles": "tiles/fields-71.pmtiles"
+  },
+  "74": {
+   "name": "Chernihiv",
+   "fields": 23409,
+   "withHistory": 23395,
+   "bbox": [
+    30.609,
+    50.3575,
+    33.5156,
+    52.3953
+   ],
+   "tiles": "tiles/fields-74.pmtiles"
+  },
+  "77": {
+   "name": "Chernivtsi",
+   "fields": 17848,
+   "withHistory": 17848,
+   "bbox": [
+    25.1979,
+    47.9617,
+    27.5155,
+    48.677
+   ],
+   "tiles": "tiles/fields-77.pmtiles"
+  }
+ }
 }
