@@ -104,7 +104,7 @@
    "uncultivated": 0.22
   },
   "n": 24626,
-  "labelSource": "KPI winter/summer maps 2019–2024 (World Bank DDH 0066913)",
+  "labelSource": "KPI winter/summer maps 2019\u20132024 (World Bank DDH 0066913)",
   "accuracy": 0.953,
   "testTiles": [
    "T35UQP",
@@ -414,7 +414,7 @@
   },
   {
    "id": "kpi_wb",
-   "name": "KPI winter/summer crop maps of Ukraine 2019–2024 (World Bank DDH 0066913)",
+   "name": "KPI winter/summer crop maps of Ukraine 2019\u20132024 (World Bank DDH 0066913)",
    "version": "2025",
    "licence": "CC-BY-4.0"
   },
@@ -427,21 +427,21 @@
   {
    "id": "geonames",
    "name": "GeoNames Ukraine dump and cities5000",
-   "version": "—",
+   "version": "\u2014",
    "licence": "CC-BY-4.0"
   },
   {
    "id": "geoboundaries",
    "name": "geoBoundaries gbOpen UKR ADM1 (Runfola et al. 2020; OpenStreetMap / Wambacher 2017)",
-   "version": "—",
+   "version": "\u2014",
    "licence": "ODbL 1.0"
   }
  ],
  "oblasts": {
   "05": {
    "name": "Vinnytsia",
-   "fields": 39053,
-   "withHistory": 39053,
+   "fields": 39032,
+   "withHistory": 39032,
    "bbox": [
     27.3554,
     48.0677,
@@ -452,8 +452,8 @@
   },
   "07": {
    "name": "Volyn",
-   "fields": 21706,
-   "withHistory": 21706,
+   "fields": 21697,
+   "withHistory": 21697,
    "bbox": [
     23.6238,
     50.283,
@@ -476,8 +476,8 @@
   },
   "12": {
    "name": "Dnipropetrovsk",
-   "fields": 35575,
-   "withHistory": 35575,
+   "fields": 35563,
+   "withHistory": 35563,
    "bbox": [
     32.9667,
     47.4304,
@@ -488,8 +488,8 @@
   },
   "14": {
    "name": "Donetsk",
-   "fields": 15924,
-   "withHistory": 15924,
+   "fields": 15905,
+   "withHistory": 15905,
    "bbox": [
     36.4746,
     46.8858,
@@ -500,8 +500,8 @@
   },
   "18": {
    "name": "Zhytomyr",
-   "fields": 23734,
-   "withHistory": 23649,
+   "fields": 23707,
+   "withHistory": 23622,
    "bbox": [
     22.7628,
     49.5901,
@@ -524,8 +524,8 @@
   },
   "23": {
    "name": "Zaporizhzhia",
-   "fields": 26199,
-   "withHistory": 26193,
+   "fields": 26185,
+   "withHistory": 26179,
    "bbox": [
     34.1702,
     46.2999,
@@ -536,8 +536,8 @@
   },
   "26": {
    "name": "Ivano-Frankivsk",
-   "fields": 15295,
-   "withHistory": 15295,
+   "fields": 15291,
+   "withHistory": 15291,
    "bbox": [
     23.7306,
     48.2706,
@@ -548,8 +548,8 @@
   },
   "32": {
    "name": "Kyiv",
-   "fields": 23523,
-   "withHistory": 23523,
+   "fields": 23513,
+   "withHistory": 23513,
    "bbox": [
     29.3855,
     49.18,
@@ -560,8 +560,8 @@
   },
   "35": {
    "name": "Kirovohrad",
-   "fields": 31818,
-   "withHistory": 31818,
+   "fields": 31807,
+   "withHistory": 31807,
    "bbox": [
     29.7642,
     47.7508,
@@ -584,8 +584,8 @@
   },
   "46": {
    "name": "Lviv",
-   "fields": 28457,
-   "withHistory": 28457,
+   "fields": 28449,
+   "withHistory": 28449,
    "bbox": [
     22.7127,
     48.8839,
@@ -596,8 +596,8 @@
   },
   "48": {
    "name": "Mykolaiv",
-   "fields": 18729,
-   "withHistory": 18729,
+   "fields": 18710,
+   "withHistory": 18710,
    "bbox": [
     30.1984,
     46.6067,
@@ -608,8 +608,8 @@
   },
   "51": {
    "name": "Odesa",
-   "fields": 28880,
-   "withHistory": 28849,
+   "fields": 28865,
+   "withHistory": 28834,
    "bbox": [
     28.2295,
     45.227,
@@ -620,8 +620,8 @@
   },
   "53": {
    "name": "Poltava",
-   "fields": 35826,
-   "withHistory": 35826,
+   "fields": 35813,
+   "withHistory": 35813,
    "bbox": [
     32.0991,
     48.7638,
@@ -632,8 +632,8 @@
   },
   "56": {
    "name": "Rivne",
-   "fields": 20459,
-   "withHistory": 20442,
+   "fields": 20448,
+   "withHistory": 20431,
    "bbox": [
     25.1108,
     50.0218,
@@ -644,8 +644,8 @@
   },
   "59": {
    "name": "Sumy",
-   "fields": 22077,
-   "withHistory": 22077,
+   "fields": 22069,
+   "withHistory": 22069,
    "bbox": [
     32.943,
     50.1145,
@@ -656,8 +656,8 @@
   },
   "61": {
    "name": "Ternopil",
-   "fields": 20130,
-   "withHistory": 20130,
+   "fields": 20117,
+   "withHistory": 20117,
    "bbox": [
     24.7198,
     48.5103,
@@ -668,8 +668,8 @@
   },
   "63": {
    "name": "Kharkiv",
-   "fields": 28723,
-   "withHistory": 28723,
+   "fields": 28712,
+   "withHistory": 28712,
    "bbox": [
     34.864,
     48.5334,
@@ -680,8 +680,8 @@
   },
   "65": {
    "name": "Kherson",
-   "fields": 18250,
-   "withHistory": 18243,
+   "fields": 18243,
+   "withHistory": 18236,
    "bbox": [
     31.8022,
     45.7693,
@@ -692,8 +692,8 @@
   },
   "68": {
    "name": "Khmelnytskyi",
-   "fields": 27939,
-   "withHistory": 27939,
+   "fields": 27915,
+   "withHistory": 27915,
    "bbox": [
     26.1344,
     48.4543,
@@ -704,8 +704,8 @@
   },
   "71": {
    "name": "Cherkasy",
-   "fields": 29214,
-   "withHistory": 29214,
+   "fields": 29194,
+   "withHistory": 29194,
    "bbox": [
     29.5952,
     48.4344,
@@ -716,8 +716,8 @@
   },
   "74": {
    "name": "Chernihiv",
-   "fields": 23409,
-   "withHistory": 23395,
+   "fields": 23400,
+   "withHistory": 23386,
    "bbox": [
     30.609,
     50.3575,
