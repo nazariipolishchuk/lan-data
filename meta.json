@@ -104,7 +104,7 @@
    "uncultivated": 0.22
   },
   "n": 24626,
-  "labelSource": "KPI winter/summer maps 2019\u20132024 (World Bank DDH 0066913)",
+  "labelSource": "KPI winter/summer maps 2019–2024 (World Bank DDH 0066913)",
   "accuracy": 0.953,
   "testTiles": [
    "T35UQP",
@@ -414,9 +414,27 @@
   },
   {
    "id": "kpi_wb",
-   "name": "KPI winter/summer crop maps of Ukraine 2019\u20132024 (World Bank DDH 0066913)",
+   "name": "KPI winter/summer crop maps of Ukraine 2019–2024 (World Bank DDH 0066913)",
    "version": "2025",
    "licence": "CC-BY-4.0"
+  },
+  {
+   "id": "ua_cropmap_2020",
+   "name": "10 m crop type map of Ukraine 2020 (Chen et al. 2024, Zenodo 11065080)",
+   "version": "2024",
+   "licence": "CC-BY-4.0"
+  },
+  {
+   "id": "geonames",
+   "name": "GeoNames Ukraine dump and cities5000",
+   "version": "—",
+   "licence": "CC-BY-4.0"
+  },
+  {
+   "id": "geoboundaries",
+   "name": "geoBoundaries gbOpen UKR ADM1 (Runfola et al. 2020; OpenStreetMap / Wambacher 2017)",
+   "version": "—",
+   "licence": "ODbL 1.0"
   }
  ],
  "oblasts": {
